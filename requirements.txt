@@ -1,0 +1,4 @@
+gunicorn==19.7.1
+psycopg2==2.7.5
+SQLAlchemy==1.2.8
+django-bootstrap3==3-10-0.1
