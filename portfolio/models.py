@@ -21,3 +21,5 @@ class Projects(models.Model):
     language = models.CharField(max_length=60)
     owner = models.ForeignKey(Brian)
     pub_date = models.DateTimeField(auto_now_add=True)
+    post_image = models.ImageField(upload_to='post/', default='card')
+    link = models.CharField(max_length=200,null=True)
