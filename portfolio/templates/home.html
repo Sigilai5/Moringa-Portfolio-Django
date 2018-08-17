@@ -15,18 +15,23 @@
 
 </head>
 <body>
-<div class="top">
+<div class="top" style="height: 500px;padding-top: 0px">
 
 <div id="top">
-    <img src="{% static 'image/sigi.jpeg' %}" id="sigi" style="border-radius: 50%">
-    <h3>Brian Sigilai</h3>
-    <h4>Programmer and Web Developer</h4>
+{#    <img src="{% static 'image/sigi.jpeg' %}" id="sigi" style="border-radius: 50%">#}
+    <h1 id="brian">Brian Sigilai</h1>
+    <h4>Full stack developer</h4>
 </div>
     {% block scripts %}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      {% bootstrap_javascript %}
     {% endblock %}
 
+</div>
+<div class="about">
+    <h1>About me</h1>
+    <p id="about">I am passionate about using technology to solve world problems and when am not coding I love Swimming and Hiking
+     as well.</p>
 </div>
 
    <section class="gallery-block cards-gallery">
@@ -53,20 +58,48 @@
     </section>
 
 <h1 id="skills">Skills</h1>
+<div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
      <img src="{% static 'image/js.png' %}" class="skills" >
+        </div>
+         <div class="col-md-6 col-lg-4">
 <img src="{% static 'image/ang.png' %}" class="skills">
+        </div>
+          <div class="col-md-6 col-lg-4">
 <img src="{% static 'image/kot.png' %}" class="skills">
+          </div>
+         <div class="col-md-6 col-lg-4">
 <img src="{% static 'image/boot.png' %}" class="skills">
+         </div>
+         <div class="col-md-6 col-lg-4">
 <img src="{% static 'image/py.png' %}" class="skills">
+         </div>
+         <div class="col-md-6 col-lg-4">
  <img src="{% static 'image/jango.png' %}" class="skills">
+         </div>
+         <div class="col-md-6 col-lg-4">
  <img src="{% static 'image/flask-logo.png' %}" class="skills">
+         </div>
+         <div class="col-md-6 col-lg-4">
  <img src="{% static 'image/php.png' %}" class="skills">
+         </div>
+         <div class="col-md-6 col-lg-4">
  <img src="{% static 'image/postgresql.png' %}" class="skills">
+         </div>
+         <div class="col-md-6 col-lg-4">
 <img src="{% static 'image/mysql.png' %}" class="skills">
+         </div>
+    </div>
+</div>
 <div class="bot">
-
+<h1 id="contacts">Contacts</h1>
+    <h2><span class="glyphicon glyphicon-map-marker"></span>Nairobi</h2>
+    <h2>briansigilai@gmail.com</h2>
+    <h2>+254792071275</h2>
 <p class="bot-text">&copy;Brian Kiprono Sigilai {% now "Y" %}</p>
 </div>
+
 
 
 </body>

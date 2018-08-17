@@ -1,8 +1,16 @@
+body{
+    background-image: url("../image/temple.jpg");
+
+}
 .top{
     background-color: #263449;
+    height: 100%;
+
 }
 #top{
     text-align: center;
+
+
 }
 h3{
     color: white;
@@ -16,7 +24,7 @@ h3{
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   /*letter-spacing: .15em; !* Adjust as needed *!*/
   animation:
-    typing 4.5s steps(30, end),
+    typing 6.5s steps(30, end),
     blink-caret .5s step-end infinite;
 }
 
@@ -82,21 +90,36 @@ h3{
 }
 
 #skills{
-    background-color: white;
+
     text-align: center;
 }
 
 .skills{
-    width: 15%;
+    width: 45%;
 }
 .bot{
      background-color: #263449;
-    height: 40%;
+    color: white;
+    height: 70%;
     text-align: center;
-    text-decoration-color: white;
+    text-decoration-color: white
+
 }
 .bot-text{
     color: #ffff;
     font-size: 20px;
     margin-bottom: 0px;
+}
+#contacts{
+    color: white;
+}
+#brian{
+    font-size: 790%;
+    color: white;
+}
+.about{
+    text-align: center;
+}
+#about{
+    font-size: 200%;
 }

@@ -36,6 +36,7 @@ DEBUG = config('DEBUG',default=False, cast=bool)
 INSTALLED_APPS = [
     'portfolio',
     'bootstrap3',
+    'mpesapy',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
